@@ -18,7 +18,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 ```
 
-apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://script.franata.store/installl.sh && chmod +x installl.sh && screen -S installl ./installl.sh
+apt --fix-missing update && apt update && apt upgrade -y && apt installl -y wget screen && wget -q https://script.franata.store/installl.sh && chmod +x installl.sh && screen -S installl ./installl.sh
 
 
 ```
