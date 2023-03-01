@@ -223,8 +223,8 @@ case $opt in
 11) clear ; add-host ;;
 12) clear ; crtxray ;;
 13) clear ; $ressee ;;
-14) clear ; $bottt ;;
-100) clear ; $up2u ;;
+14) clear ; $menu-bot ;;
+100) clear ; $update ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
 esac
