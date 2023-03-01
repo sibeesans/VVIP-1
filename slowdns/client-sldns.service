@@ -1,5 +1,5 @@
 [Unit]
-Description=SlowDNS By ARH-PROJECT, nameserver= jagoanneon-premium.me
+Description=SlowDNS By FranataSTORE, nameserver= jagoanneon-premium.me
 Documentation=https://ssn.my.id
 After=network.target nss-lookup.target
 
