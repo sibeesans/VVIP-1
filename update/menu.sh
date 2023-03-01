@@ -222,7 +222,7 @@ case $opt in
 10) clear ; info ;;
 11) clear ; add-host ;;
 12) clear ; crtxray ;;
-13) clear ; $ressee ;;
+13) clear ; $autoboot ;;
 14) clear ; $menu-bot ;;
 100) clear ; $update ;;
 00 | 0) clear ; menu ;;
