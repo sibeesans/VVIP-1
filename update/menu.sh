@@ -184,7 +184,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ MENU SCRIPT ⇲                          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e "  ${COLOR1}[${BLUE}01${NC}]  Create${NC} SSHWS      $NC"
+echo -e "  ${COLOR1}[${BLUE}01${NC}]  Create${NC} SSH      $NC"
 echo -e "  ${COLOR1}[${BLUE}02${NC}]  Create${NC} VMESS      $NC"
 echo -e "  ${COLOR1}[${BLUE}03${NC}]  Create${NC} VLESS       $NC"
 echo -e "  ${COLOR1}[${BLUE}04${NC}]  Create${NC} TROJAN      $NC"
@@ -200,7 +200,9 @@ echo -e "  ${COLOR1}[${BLUE}08${NC}]  BACKUP           $NC"
 echo -e "  ${COLOR1}[${BLUE}09${NC}]  SETTINGS        $NC" 
 echo -e "  ${COLOR1}[${BLUE}10${NC}]  INFORMATION             $NC"
 echo -e "  ${COLOR1}[${BLUE}11${NC}]  ADD HOST/DOMAIN        $NC"
-echo -e "  ${COLOR1}[${BLUE}12${NC}]  RENEW CERT     $NC"
+echo -e "  ${COLOR1}[${BLUE}12${NC}]  CERT XRAY    $NC"
+echo -e "  ${COLOR1}[${BLUE}13${NC}]  AUTO REBOOT    $NC"
+echo -e "  ${COLOR1}[${BLUE}14${NC}]  MENU BOOT    $NC"
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[44;1;39m                     ⇱ FranataSTORE ⇲                         \E[0m"
@@ -224,7 +226,7 @@ case $opt in
 12) clear ; crtxray ;;
 13) clear ; $autoboot ;;
 14) clear ; $menu-bot ;;
-100) clear ; $update ;;
+999) clear ; $update ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
 esac
