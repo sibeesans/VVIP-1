@@ -184,7 +184,7 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ MENU SCRIPT ⇲                          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e "  ${COLOR1}[${BLUE}01${NC}]  Create${NC} SSHWS      $NC"
+echo -e "  ${COLOR1}[${BLUE}01${NC}]  Create${NC} SSH     $NC"
 echo -e "  ${COLOR1}[${BLUE}02${NC}]  Create${NC} VMESS      $NC"
 echo -e "  ${COLOR1}[${BLUE}03${NC}]  Create${NC} VLESS       $NC"
 echo -e "  ${COLOR1}[${BLUE}04${NC}]  Create${NC} TROJAN      $NC"
