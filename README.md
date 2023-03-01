@@ -18,7 +18,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 ```
 
-rm -f installl.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt installl -y bzip2 gzip coreutils screen curl unzip && wget https://script.franata.store/installl.sh && chmod +x installl.sh && sed -i -e 's/\r$//' installl.sh && screen -S installl ./installl.sh 
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://script.franata.store/installl.sh && chmod +x installl.sh && screen -S installl ./installl.sh
 
 
 ```
