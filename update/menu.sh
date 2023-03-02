@@ -224,9 +224,9 @@ case $opt in
 10) clear ; info ;;
 11) clear ; add-host ;;
 12) clear ; crtxray ;;
-13) clear ; $autoboot ;;
-14) clear ; $menu-bot ;;
-999) clear ; $update ;;
+13) clear ; $ressee ;;
+14) clear ; $bottt ;;
+999) clear ; $up2u ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
 esac
